@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
+// se declaran las variables.
 	MediaPlayer mepe;
 	int pos = 0;
 	
@@ -48,7 +49,7 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
-	//*******************Cronometro de canción********************************//
+	//*******************Cronometro de canciï¿½n********************************//
 	
 	public void correcta() {
         Toast t=Toast.makeText(this,"Congratulation, this right - can continue", Toast.LENGTH_SHORT);
@@ -116,7 +117,7 @@ public class MainActivity extends Activity {
                         if(s==31){
                         	AlertDialog.Builder dialogo1 = new AlertDialog.Builder(MainActivity.this);  
                             dialogo1.setTitle("Question 1");  
-                            dialogo1.setMessage("¿ What did we do last week?");            
+                            dialogo1.setMessage("ï¿½ What did we do last week?");            
                             dialogo1.setCancelable(false);  
                             dialogo1.setPositiveButton("The same old thing", new DialogInterface.OnClickListener() {  
                                 public void onClick(DialogInterface dialogo1, int id) {  
@@ -150,7 +151,7 @@ public class MainActivity extends Activity {
                         if(s==47){
                         	AlertDialog.Builder dialogo1 = new AlertDialog.Builder(MainActivity.this);  
                             dialogo1.setTitle("Question 2");  
-                            dialogo1.setMessage("¿ Where mom and dad live??");            
+                            dialogo1.setMessage("ï¿½ Where mom and dad live??");            
                             dialogo1.setCancelable(false);  
                             dialogo1.setPositiveButton("upstairs", new DialogInterface.OnClickListener() {  
                                 public void onClick(DialogInterface dialogo1, int id) {  
@@ -182,7 +183,7 @@ public class MainActivity extends Activity {
                         if(m==1){
                         	AlertDialog.Builder dialogo1 = new AlertDialog.Builder(MainActivity.this);  
                             dialogo1.setTitle("Question 3");  
-                            dialogo1.setMessage("¿When live Rock?");            
+                            dialogo1.setMessage("ï¿½When live Rock?");            
                             dialogo1.setCancelable(false);  
                             dialogo1.setPositiveButton("Tomorrow", new DialogInterface.OnClickListener() {  
                                 public void onClick(DialogInterface dialogo1, int id) {  
@@ -213,7 +214,7 @@ public class MainActivity extends Activity {
                         if(m==1 && s==30){
                         	AlertDialog.Builder dialogo1 = new AlertDialog.Builder(MainActivity.this);  
                             dialogo1.setTitle("Question 4");  
-                            dialogo1.setMessage("¿Where are we rocking?");            
+                            dialogo1.setMessage("ï¿½Where are we rocking?");            
                             dialogo1.setCancelable(false);  
                             dialogo1.setPositiveButton("in China", new DialogInterface.OnClickListener() {  
                                 public void onClick(DialogInterface dialogo1, int id) {  
